@@ -11,7 +11,7 @@ A simple Streamlit app template for you to modify!
    ```
    $ pip install -r requirements.txt
    ```
-   pip install joblib
+   $ pip install joblib
    
 3. Run the app
 
