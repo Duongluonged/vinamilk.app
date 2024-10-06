@@ -3,9 +3,9 @@ import numpy as np
 from joblib import load
 
 # Tải các mô hình đã lưu
-bagging_model = load('linear_model.joblib')
-ridge_bagging_model = load('ridge_model.joblib')
-mlp_bagging_model = load('neural_net_model.joblib')
+bagging_model = load('vinamilk.ipynb/linear_model.joblib')
+ridge_bagging_model = load('vinamilk.ipynb/ridge_model.joblib')
+mlp_bagging_model = load('vinamilk.ipynb/neural_net_model.joblib')
 
 # Tạo giao diện ứng dụng
 st.title("Dự đoán giá cổ phiếu Vinamilk")
